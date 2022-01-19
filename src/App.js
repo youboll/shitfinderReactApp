@@ -52,7 +52,7 @@ export default class App extends React.Component {
     if (this.state.exists) {
       return 
     }
-    let url = "http://www.youtube.com/embed/"+this.state.videoCode+"?autoplay=0&origin=http://example.com";
+    let url = "https://www.youtube.com/embed/"+this.state.videoCode+"?autoplay=0&origin=http://example.com";
     return (
       <div>
         <iframe title="YoutubePlayer" id="ytplayer" type="text/html" width="640" height="360" src={url} frameBorder="0"/>

@@ -4,7 +4,7 @@
   width: 25%;
   margin: auto;
   margin-top: 0.5%;
-  margin-left:38%;
+  margin-left:37%;
   padding: .4%;
 }
 #logo{
@@ -16,14 +16,16 @@
   margin-top:10%;
 }
 #search-button {
-  width: 8%;
-  height: 5%;
-  border:3px solid grey;
+  background-color: #000;
+  border: 3px solid grey;
   border-radius: 25px;
-  background-color: black;
-  color:grey;
+  color: grey;
+  cursor: pointer;
   font-size: 100%;
-  cursor:pointer;
+  height: 5%;
+  width: 8%;
+  margin-top: 0.5%;
+  padding: 0.5%;
 }
 #search-button:hover{
   background-color: #d08e2a;
@@ -31,7 +33,7 @@
 a{
   margin: auto;
   margin-top:1%;
-  margin-left:47%;
+  margin-left:46%;
 }
 .tip{
   margin-left: 38%;
