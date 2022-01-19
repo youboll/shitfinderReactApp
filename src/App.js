@@ -36,7 +36,9 @@ export default class App extends React.Component {
     let Storage = new storage('videos');
     let last = Storage.getLastItem();
     console.log("Ultimo video: ",last)
-    this.setState({ videoCode: last, loading: false,exists:false});
+    if (last != undefined) {
+      this.setState({ videoCode: last, loading: false,exists:false});      
+    }
   }
   componentDidMount() {
     this.getVideo()
